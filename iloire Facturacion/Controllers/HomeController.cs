@@ -18,7 +18,6 @@ namespace CoffeeInvoice.Controllers
         public ActionResult Index()
         {
             return View();
-
         }
     }
 }
