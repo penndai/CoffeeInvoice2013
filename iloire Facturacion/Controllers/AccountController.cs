@@ -63,6 +63,7 @@ namespace CoffeeInvoice.Controllers
         {
             FormsAuthentication.SignOut();
 
+
             return RedirectToAction("Index", "Home");
         }
 
